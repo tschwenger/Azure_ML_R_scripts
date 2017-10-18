@@ -21,3 +21,6 @@ d <- d[,-highlyCorDescr]
 
 # Select data.frame to be sent to the output Dataset port
 maml.mapOutputPort("d")
+
+
+## this essentially drops all the redundant columns that we don't need in the prediction model
