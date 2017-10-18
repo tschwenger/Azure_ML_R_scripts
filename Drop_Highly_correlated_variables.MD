@@ -2,6 +2,7 @@
 
 ** This is to get rid of columns that essentially fit themselves that make the selected algorithm for ML less predictive 
 
+```{r,message=FALSE,warning=FALSE}
 ## R script below
 
 # Map 1-based optional input ports to variables
@@ -24,3 +25,4 @@ maml.mapOutputPort("d")
 
 
 ## this essentially drops all the redundant columns that we don't need in the prediction model
+```
